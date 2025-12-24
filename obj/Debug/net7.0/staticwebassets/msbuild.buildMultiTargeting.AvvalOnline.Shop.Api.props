@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AvvalOnline.Shop.Api.props" />
+</Project>

@@ -1,0 +1,89 @@
+[2025-11-28 20:05:40] ERROR: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: AvvalOnline.Shop.Api.Infrastructure.AvvalOnline.Shop.Api.Infrastructure.IJwtUtils Lifetime: Scoped ImplementationType: AvvalOnline.Shop.Api.Infrastructure.AvvalOnline.Shop.Api.Infrastructure.JwtUtils': Unable to resolve service for type 'Microsoft.AspNetCore.Identity.IPasswordHasher`1[AvvalOnline.Shop.Api.Model.Entites.User]' while attempting to activate 'AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService'.) (Error while validating the service descriptor 'ServiceType: AvvalOnline.Shop.Api.Services.Interfaces.IAuthService Lifetime: Scoped ImplementationType: AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService': Unable to resolve service for type 'Microsoft.AspNetCore.Identity.IPasswordHasher`1[AvvalOnline.Shop.Api.Model.Entites.User]' while attempting to activate 'AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService'.)
+Stack Trace:    at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 45
+--------------------------------------------------------------------------------
+[2025-11-28 20:12:38] ERROR: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: AvvalOnline.Shop.Api.Infrastructure.AvvalOnline.Shop.Api.Infrastructure.IJwtUtils Lifetime: Scoped ImplementationType: AvvalOnline.Shop.Api.Infrastructure.AvvalOnline.Shop.Api.Infrastructure.JwtUtils': Unable to resolve service for type 'AvvalOnline.Shop.Api.Infrastructure.AvvalOnline.Shop.Api.Infrastructure.JwtUtils' while attempting to activate 'AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService'.) (Error while validating the service descriptor 'ServiceType: AvvalOnline.Shop.Api.Services.Interfaces.IAuthService Lifetime: Scoped ImplementationType: AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService': Unable to resolve service for type 'AvvalOnline.Shop.Api.Infrastructure.AvvalOnline.Shop.Api.Infrastructure.JwtUtils' while attempting to activate 'AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService'.)
+Stack Trace:    at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 45
+--------------------------------------------------------------------------------
+[2025-11-28 20:15:45] ERROR: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: AvvalOnline.Shop.Api.Infrastructure.IJwtUtils Lifetime: Scoped ImplementationType: AvvalOnline.Shop.Api.Infrastructure.JwtUtils': Unable to resolve service for type 'AvvalOnline.Shop.Api.Infrastructure.JwtUtils' while attempting to activate 'AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService'.) (Error while validating the service descriptor 'ServiceType: AvvalOnline.Shop.Api.Services.Interfaces.IAuthService Lifetime: Scoped ImplementationType: AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService': Unable to resolve service for type 'AvvalOnline.Shop.Api.Infrastructure.JwtUtils' while attempting to activate 'AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService'.)
+Stack Trace:    at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 43
+--------------------------------------------------------------------------------
+[2025-11-28 20:16:47] ERROR: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: AvvalOnline.Shop.Api.Infrastructure.IJwtUtils Lifetime: Scoped ImplementationType: AvvalOnline.Shop.Api.Infrastructure.JwtUtils': Unable to resolve service for type 'AvvalOnline.Shop.Api.Infrastructure.JwtUtils' while attempting to activate 'AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService'.) (Error while validating the service descriptor 'ServiceType: AvvalOnline.Shop.Api.Services.Interfaces.IAuthService Lifetime: Scoped ImplementationType: AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService': Unable to resolve service for type 'AvvalOnline.Shop.Api.Infrastructure.JwtUtils' while attempting to activate 'AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService'.)
+Stack Trace:    at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 43
+--------------------------------------------------------------------------------
+[2025-11-28 20:28:28] ERROR: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: AvvalOnline.Shop.Api.Services.Interfaces.IAuthService Lifetime: Scoped ImplementationType: AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService': Unable to resolve service for type 'AvvalOnline.Shop.Api.Infrastructure.JwtUtils' while attempting to activate 'AvvalOnline.Shop.Api.Services.AvvalOnline.Shop.Api.Services.AuthService'.)
+Stack Trace:    at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 43
+--------------------------------------------------------------------------------
+[2025-11-28 20:30:46] ERROR: The host was aborted.
+Stack Trace:    at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 43
+--------------------------------------------------------------------------------
+[2025-11-28 20:30:58] ERROR: The host was aborted.
+Stack Trace:    at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 43
+--------------------------------------------------------------------------------
+[2025-11-28 22:17:12] ERROR: The host was aborted.
+Stack Trace:    at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 43
+--------------------------------------------------------------------------------
+[2025-11-28 22:17:20] ERROR: The host was aborted.
+Stack Trace:    at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 43
+--------------------------------------------------------------------------------
+[2025-11-29 22:12:25] ERROR: The host was aborted.
+Stack Trace:    at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 52
+--------------------------------------------------------------------------------
+[2025-11-29 22:12:32] ERROR: The host was aborted.
+Stack Trace:    at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\AvvalOnline\AvvalOnline.Shop.Api\AvvalOnline.Shop.Api\Program.cs:line 52
+--------------------------------------------------------------------------------

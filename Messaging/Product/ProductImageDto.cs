@@ -1,0 +1,11 @@
+﻿namespace AvvalOnline.Shop.Api.Messaging.Product
+{
+    public class ProductImageDto
+    {
+        public int Id { get; set; }
+        public string ImageUrl { get; set; }
+        public string AltText { get; set; }
+        public int DisplayOrder { get; set; }
+        public bool IsMain { get; set; }
+    }
+}

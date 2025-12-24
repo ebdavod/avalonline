@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "jUqVCxQt8J7wi+/aYtb+jj4YsoYG09KQBF1X1izQKH0=",
+  "Source": "AvvalOnline.Shop.Api",
+  "BasePath": "_content/AvvalOnline.Shop.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
